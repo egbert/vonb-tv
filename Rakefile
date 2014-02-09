@@ -73,7 +73,6 @@ desc 'Build sites'
 task :build do
   clean
   build
-  push_to_gh_pages master_repository, PUBLISH_BRANCH
 end
 
 desc 'Publish website'

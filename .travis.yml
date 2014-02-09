@@ -13,6 +13,7 @@ before_script:
 - bower install
 - rake setup
 script: rake build
+after_success: rake publish
 env:
   global:
     secure: Hao4VXQasE5KcWS2AziI3va0pu6wG9d7vjR2QD88f9t3XwHKMgl7AMrPKaP2v6Q0oc+TUEyr8iQcSVtfCnOZ/TsrOIH/hVKWOgMYQ7uFrDDfKubTJ91dL9vl33NISCTKhK3D70UGysAgT09feKs6FEAW1Ua0U81KukkLbw3VlZY=
