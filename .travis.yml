@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- '2.1.0'
+branches:
+  only:
+  - master
+before_script:
+- npm install -g bower
+- bower install
+- rake setup
+script: rake build
+env:
+  global:
+    secure: Hao4VXQasE5KcWS2AziI3va0pu6wG9d7vjR2QD88f9t3XwHKMgl7AMrPKaP2v6Q0oc+TUEyr8iQcSVtfCnOZ/TsrOIH/hVKWOgMYQ7uFrDDfKubTJ91dL9vl33NISCTKhK3D70UGysAgT09feKs6FEAW1Ua0U81KukkLbw3VlZY=
