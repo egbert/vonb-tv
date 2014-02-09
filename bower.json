@@ -1,0 +1,6 @@
+{
+  "name": "vonB.tv",
+  "dependencies": {
+    "normalize-css": "latest"
+  }
+}

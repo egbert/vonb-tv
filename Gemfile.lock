@@ -85,5 +85,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coffee-script
   middleman (~> 3.2.0)
+  sass
   slim
