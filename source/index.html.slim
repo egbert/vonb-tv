@@ -1,11 +1,12 @@
 doctype html
 html
 head
-  meta charset="utf-8"
+  meta charset='utf-8'
   title vonB.tv
   link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'
-  = stylesheet_link_tag "application"
-  = javascript_include_tag  "application"
+  link rel='icon' type='image/png' href='http://www.vonb.tv/images/favicon.png'
+  = stylesheet_link_tag 'application'
+  = javascript_include_tag  'application'
 body
   = partial 'header'
   section#showreel  = partial 'showreel'
