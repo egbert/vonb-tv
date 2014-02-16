@@ -475,17 +475,16 @@ header {
     header h1 a {
       display: block;
       text-indent: -1234em;
-      background: url(/images/logo.svg);
+      background: url(/images/logo-small.png);
       height: 26px;
       width: 100px;
       padding: 20px;
-      background-size: 100px;
       background-repeat: no-repeat;
-      background-position: center 18px; }
-      /* line 22, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_header.css.sass */
+      background-position: center 21px; }
+      /* line 21, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_header.css.sass */
       header h1 a:hover {
         background-color: #444444; }
-  /* line 24, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_header.css.sass */
+  /* line 23, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_header.css.sass */
   header nav a {
     margin: 0;
     color: white;
@@ -495,7 +494,7 @@ header {
     float: left;
     text-decoration: none;
     padding: 20px; }
-    /* line 33, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_header.css.sass */
+    /* line 32, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_header.css.sass */
     header nav a:hover {
       background: #444444; }
 /* line 3, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
