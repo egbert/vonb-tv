@@ -9,7 +9,19 @@ header
   h1
     margin: 0
     float: left
-  h1 a, nav a
+    a
+      display: block
+      text-indent: -1234em
+      background: url(/images/logo.svg)
+      height: 26px
+      width: 100px
+      padding: 20px
+      background-size: 105px
+      background-repeat: no-repeat
+      background-position: center center
+      &:hover
+        background-color: #444
+  nav a
     margin: 0
     color: $white
     font-size: 21px
