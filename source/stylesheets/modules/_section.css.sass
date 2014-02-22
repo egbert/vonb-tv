@@ -1,9 +1,40 @@
 @import '../_base'
 
+section
+  position: relative
+
 .section__container
   width: 920px
   margin: 0 auto
-  padding: 110px 0 70px
+  padding: 0 0 180px
+
+.section__top-arrow-wrapper
+  top: -110px
+  position: absolute
+  width: 100%
+.section__top-arrow-side-left-wrapper
+  float: left
+  width: 50%
+.section__top-arrow-side-left
+  margin-right: 110px
+  height: 110px
+.section__top-arrow-side-right-wrapper
+  float: right
+  width: 50%
+.section__top-arrow-side-right
+  margin-left: 110px
+  height: 110px
+.section__top-arrow
+  border-left-width: 110px
+  border-right-width: 110px
+  border-left-style: solid
+  border-right-style: solid
+  border-top: 110px solid transparent
+  width: 0
+  height: 0
+  margin: 0 auto
+
+
 
 .section__title
   font-size: 48px
@@ -23,28 +54,56 @@
   float: right
   width: 250px
 
+@mixin section-colors($bg, $header, $text)
+  background: $bg
+  color: $text
+  .section__top-arrow-side-left, .section__top-arrow-side-right
+    background: $bg
+  .section__top-arrow
+    border-left-color: $bg
+    border-right-color: $bg
+  background: $bg
+  .section__title, .section__body
+    color: $text
+    background: $header
+    a
+      color: $text
+
 #quotes
-  background: $yellow
+  @include section-colors($yellow, $black, $white)
   .section__container
     overflow: hidden
   .quote__item
     background: $black
     color: white
+    position: relative
+    margin-bottom: 60px
+    &::before
+      content: ''
+      position: absolute
+      top: 100%
+      left: 30px
+      display: block
+      border-top: solid 15px $black
+      border-left: solid 15px $black
+      border-right: solid 15px transparent
+      border-bottom: solid 15px transparent
   .quote__quotee
     @extend .intro-font
 
 #introduction
+  @include section-colors($pink, $black, $black)
   @extend .intro-font
-  background-color: $pink
-  color: $black
   text-align: center
   font-size: 28px
   .section__container
     padding: 50px 0
 
 #showreel
+  .section__container
+    padding-top: 110px
   background-color: $red
-  background: url(/images/showreel-bg-pattern.svg) repeat center center
+  background: url(/images/showreel-bg-pattern.svg) repeat bottom center
   .showreel__player
     background: #000
     color: white
@@ -53,10 +112,7 @@
     margin-bottom: 40px
 
 #cv
-  background: $red
-  .section__title, .section__body
-    background: $black
-    color: $white
+  @include section-colors($red, $black, $white)
   table
     width: 100%
     td
@@ -65,23 +121,14 @@
         text-align: right
 
 #about
-  background: $black
+  @include section-colors($white, rgba(255, 255, 0, 0.8), $black)
   background: url(/images/bio.jpg)
   background-position: center center
-  .section__title, .section__body
-    background: rgba(255, 255, 0, 0.8)
-    color: $black
-    a
-      color: $black
 
 #equipment
-  background: $white
-  .section__title
-    background: $pink
-    color: $black
+  @include section-colors($white, $pink, $black)
 
 #contact
-  background: $black
-  .section__title, .section__body
-    background: $red
-    color: $white
+  @include section-colors($black, $red, $white)
+  .section__container
+    padding-bottom: 70px
