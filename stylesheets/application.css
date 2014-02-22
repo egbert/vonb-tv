@@ -662,10 +662,12 @@ section {
 
 /* line 102, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #showreel {
-  padding-top: 110px;
   background-color: red;
   background: url(/images/showreel-bg-pattern.svg) repeat bottom center; }
-  /* line 106, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  /* line 103, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  #showreel .section__container {
+    padding-top: 110px; }
+  /* line 107, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
   #showreel .showreel__player {
     background: black;
     color: white;
@@ -673,7 +675,7 @@ section {
     line-height: 450px;
     margin-bottom: 40px; }
 
-/* line 113, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+/* line 114, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #cv {
   background: red;
   color: white;
@@ -692,17 +694,17 @@ section {
     /* line 69, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
     #cv .section__title a, #cv .section__body a, #cv .section__body-right a {
       color: white; }
-  /* line 115, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  /* line 116, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
   #cv table {
     width: 100%; }
-    /* line 117, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+    /* line 118, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
     #cv table td {
       padding-right: 10px; }
-      /* line 119, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+      /* line 120, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
       #cv table td.year {
         text-align: right; }
 
-/* line 122, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+/* line 123, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #about {
   background: white;
   color: black;
@@ -724,7 +726,7 @@ section {
     #about .section__title a, #about .section__body a, #about .section__body-right a {
       color: black; }
 
-/* line 127, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+/* line 128, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #equipment {
   background: white;
   color: black;
@@ -744,12 +746,11 @@ section {
     #equipment .section__title a, #equipment .section__body a, #equipment .section__body-right a {
       color: black; }
 
-/* line 130, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+/* line 131, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #contact {
   background: black;
   color: white;
-  background: black;
-  padding-bottom: 110px; }
+  background: black; }
   /* line 60, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
   #contact .section__top-arrow-side-left, #contact .section__top-arrow-side-right {
     background: black; }
@@ -764,3 +765,6 @@ section {
     /* line 69, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
     #contact .section__title a, #contact .section__body a, #contact .section__body-right a {
       color: white; }
+  /* line 133, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  #contact .section__container {
+    padding-bottom: 70px; }
