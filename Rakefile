@@ -35,7 +35,7 @@ def update_repository(branch)
 end
 
 def build
-  sh 'bundle exec middleman build'
+  sh 'bundle exec middleman build --verbose'
 end
 
 def clean
