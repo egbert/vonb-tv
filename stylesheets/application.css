@@ -753,8 +753,11 @@ section {
     /* line 69, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
     #equipment .section__title a, #equipment .section__body a, #equipment .section__body-right a {
       color: black; }
+  /* line 130, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  #equipment img {
+    margin-bottom: 40px; }
 
-/* line 131, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+/* line 133, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #contact {
   background: black;
   color: white;
@@ -773,6 +776,6 @@ section {
     /* line 69, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
     #contact .section__title a, #contact .section__body a, #contact .section__body-right a {
       color: white; }
-  /* line 133, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  /* line 135, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
   #contact .section__container {
     padding-bottom: 70px; }
