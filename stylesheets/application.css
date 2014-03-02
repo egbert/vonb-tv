@@ -719,7 +719,8 @@ section {
   color: black;
   background: white;
   background: url(/images/bio.jpg);
-  background-position: center center; }
+  background-position: bottom center;
+  background-repeat: repeat-x; }
   /* line 60, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
   #about .section__top-arrow-side-left, #about .section__top-arrow-side-right {
     background: white; }
@@ -735,7 +736,7 @@ section {
     #about .section__title a, #about .section__body a, #about .section__body-right a {
       color: black; }
 
-/* line 128, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+/* line 129, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #equipment {
   background: white;
   color: black;
@@ -754,11 +755,11 @@ section {
     /* line 69, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
     #equipment .section__title a, #equipment .section__body a, #equipment .section__body-right a {
       color: black; }
-  /* line 130, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  /* line 131, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
   #equipment img {
     margin-bottom: 40px; }
 
-/* line 133, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+/* line 134, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
 #contact {
   background: black;
   color: white;
@@ -777,6 +778,6 @@ section {
     /* line 69, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
     #contact .section__title a, #contact .section__body a, #contact .section__body-right a {
       color: white; }
-  /* line 135, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
+  /* line 136, /home/travis/build/Egbert/vonb-tv/source/stylesheets/modules/_section.css.sass */
   #contact .section__container {
     padding-bottom: 70px; }
